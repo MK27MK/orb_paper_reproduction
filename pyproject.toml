@@ -1,0 +1,25 @@
+[project]
+name = "orb-paper-reproduction"
+version = "0.1.0"
+description = "Reproduction of the Zarattini, Barbon & Aziz opening range breakout papers on U.S. equities."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "firstrate-data",
+    "matplotlib>=3.11.1",
+    "numpy>=2.4.1",
+    "polars>=1.44.1",
+    "pyarrow>=25.0.1",
+    "tqdm>=4.68.3",
+]
+
+[tool.uv.sources]
+firstrate-data = { git = "https://github.com/MK27MK/firstrate_data.git", tag = "v0.1.0" }
+
+[dependency-groups]
+dev = [
+    "nbconvert>=7.17.1",
+    "ipykernel>=7.3.0",
+    "jupyter>=1.1.1",
+    "ipywidgets>=8.1.8",
+]

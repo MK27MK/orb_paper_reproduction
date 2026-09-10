@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local secrets / machine-specific paths
+.env
+
+.DS_Store
+
+# Working notes and run dumps, not part of the reproduction
+docs/
+TODO.md
+
+# Third-party papers, linked from the README instead of redistributed
+ORB-4729284.pdf
+can-day-trading-really-be-profitable.pdf

@@ -1,0 +1,4 @@
+{
+  "jupyter.debugJustMyCode": false,
+  "python.envFile": "${workspaceFolder}/.env"
+}
